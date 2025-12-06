@@ -1,167 +1,101 @@
-```
-██╗  ██╗██████╗  ██████╗ ███╗   ██╗ ██████╗ ███████╗      ██╗   ██╗██╗  ██╗
-██║ ██╔╝██╔══██╗██╔═══██╗████╗  ██║██╔═══██╗██╔════╝      ██║   ██║╚██╗██╔╝
-█████╔╝ ██████╔╝██║   ██║██╔██╗ ██║██║   ██║███████╗█████╗██║   ██║ ╚███╔╝ 
-██╔═██╗ ██╔══██╗██║   ██║██║╚██╗██║██║   ██║╚════██║╚════╝██║   ██║ ██╔██╗ 
-██║  ██╗██║  ██║╚██████╔╝██║ ╚████║╚██████╔╝███████║      ╚██████╔╝██╔╝ ██╗
-╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝ ╚══════╝       ╚═════╝ ╚═╝  ╚═╝
+# 👋 Hi, I'm Saurav Singh
 
-                  ┌─────────────────────────────────────────────┐
-                  │     BLACK HAT HACKER • CYBERSECURITY       │
-                  │         PENETRATION TESTER • RED TEAM      │
-                  └─────────────────────────────────────────────┘
-```
+### Cybersecurity Professional | Blue Team Operations | Threat Intelligence
 
-<div align="center">
-
-### 🌐 **Shadow Nexus Labs** | Dark Web • Cyberspace 🌐
-
-*"The quieter you become, the more you are able to hear."*
-
-[![Status](https://img.shields.io/badge/Status-Active-00FF00?style=for-the-badge&logo=statuspage&logoColor=white)]
-[![Terminal](https://img.shields.io/badge/Terminal-Bash-000000?style=for-the-badge&logo=gnubash&logoColor=white)]
-[![OS](https://img.shields.io/badge/OS-Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)]
-
-</div>
+I specialize in **proactive threat detection**, **malware analysis**, and **SIEM-based security monitoring**. Currently pursuing BE Computer Science (Cybersecurity) at Chitkara University with hands-on experience in enterprise-grade security infrastructure.
 
 ---
 
-## 🔐 **CURRENT OPERATIONS**
+## 🔧 Technical Arsenal
 
-```bash
-┌──(kronos㉿nexus)-[~/operations]
-└─$ whoami && id
-kronos
-uid=1337(kronos) gid=1337(shadowops) groups=1337(shadowops),27(sudo)
+### Blue Team & Defense
+- **SIEM**: ELK Stack (Elasticsearch, Logstash, Kibana), Splunk
+- **Malware Analysis**: CAPEv2, YARA Rules, Behavioral Heuristics
+- **Incident Response**: Log Correlation, Threat Hunting, Digital Forensics
+- **Automation**: Python scripts for threat detection and log enrichment
 
-┌──(kronos㉿nexus)-[~/operations]
-└─$ cat /proc/version
-Linux version 6.1.0-kali7-amd64 (devel@kali.org)
+### Security Tools & Technologies
+- **Network**: Wireshark, Nmap, Burp Suite, tcpdump
+- **Vulnerability**: Nessus, Metasploit, OWASP ZAP, Nuclei
+- **Cloud**: AWS (EC2, S3, IAM, CloudTrail, CloudWatch)
+- **Threat Intel**: Maltego, Shodan, VirusTotal, Censys
 
-┌──(kronos㉿nexus)-[~/operations]
-└─$ echo $PATH | grep -o '[^:]*' | head -5
-/usr/local/sbin
-/usr/local/bin
-/usr/sbin
-/usr/bin
-/sbin
-```
-
-### 🎯 **EXPERTISE MATRIX**
-
-| **DOMAIN** | **SKILL LEVEL** | **TOOLS** |
-|------------|-----------------|----------|
-| 🛡️ **Exploit Development** | ████████████ 100% | Metasploit, Custom Payloads, Buffer Overflows |
-| 🔍 **Vulnerability Research** | ███████████░ 95%  | Burp Suite, OWASP ZAP, Nessus, OpenVAS |
-| ⚔️ **Red Team Operations** | ████████████ 100% | Cobalt Strike, Empire, Bloodhound, Mimikatz |
-| 🦠 **Malware Analysis** | ██████████░░ 85%  | IDA Pro, Ghidra, Wireshark, Volatility |
-| 🌐 **Network Penetration** | ███████████░ 95%  | Nmap, Netcat, Aircrack-ng, John the Ripper |
-| 🔒 **Cryptographic Analysis** | ████████░░░░ 70%  | Hashcat, OpenSSL, Custom Scripts |
+### Programming & Automation
+- **Languages**: Python | Bash/Shell | C# | SQL
+- **Infrastructure**: Docker | Proxmox | Linux (Kali, Parrot OS, Ubuntu)
+- **Frameworks**: Sigma Rules, YARA, CEL
 
 ---
 
-## 🚨 **ACTIVE REPOSITORIES**
+## 🎯 Featured Projects
 
-### 🔥 **Primary Arsenal**
+### 🦠 **Automated Ransomware Analysis Pipeline**
+Enterprise-grade malware detonation framework processing 20,000+ samples (10,000 ransomware + 10,000 benign) with automated behavioral analysis and ELK Stack integration for threat intelligence.
+- **Impact**: Reduced incident investigation time by 40%
+- **Tech**: CAPEv2, Proxmox, ELK Stack, Python
 
-```
-╭─ 🛡️ DEFENSIVE TOOLS
-├── canary-warden        → Local ransomware simulator, kill-switch demo
-├── phish-scout         → Phishing detection/protection features  
-│
-╭─ ⚔️ OFFENSIVE TOOLS
-├── exploit-framework   → Custom exploit development suite
-├── payload-generator   → Advanced payload creation toolkit
-├── network-scanner     → High-speed network reconnaissance
-│
-╰─ 📚 RESEARCH & CTF
-    ├── ctf-writeups    → Capture The Flag solutions & methodologies
-    ├── vuln-research   → Zero-day vulnerability research
-    └── red-team-tools  → Custom red team automation scripts
-```
+### 🛡️ **PhishScout - ML Phishing Detection**
+Machine learning-based URL analysis tool with lexical feature extraction and heuristic-based zero-day campaign detection. Optimized for minimal false positives while maintaining 95%+ accuracy.
+- **Impact**: Early detection of advanced phishing campaigns
+- **Tech**: Python, Scikit-learn, URL Analysis
 
-### 🏆 **Notable Projects**
-
-- **[canary-warden](https://github.com/Kronos-ux/canary-warden)** - Ransomware simulation with kill-switch mechanisms
-- **[phish-scout](https://github.com/Kronos-ux/phish-scout)** - Advanced phishing detection and URL analysis
-- **Neural-Net-Exploit** - ML-powered vulnerability scanner *(Private)*
-- **Stealth-Beacon** - Covert C2 communication framework *(Private)*
+### 🔥 **Custom WAF Implementation**
+Production-grade Web Application Firewall deployment with OWASP Top 10 protection, custom rule sets for XSS/SQLi prevention, and DDoS mitigation capabilities.
+- **Coverage**: XSS, SQL Injection, DDoS, Rate Limiting
+- **Tech**: WAF Rules, Nginx, ModSecurity
 
 ---
 
-## 📊 **OPERATION STATISTICS**
+## 📊 GitHub Statistics
 
-```
-╭────────────────────────────────────────────────────────────────╮
-│                        ENGAGEMENT METRICS                     │
-├────────────────────────────────────────────────────────────────┤
-│  🎯 Successful Penetrations    │  127                         │
-│  🔍 Vulnerabilities Found      │  342                         │
-│  🛡️ Systems Hardened          │  89                          │
-│  📝 CTF Competitions Won       │  23                          │
-│  🏆 Bug Bounties Claimed       │  15                          │
-╰────────────────────────────────────────────────────────────────╯
-```
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kronos-ux&show_icons=true&theme=tokyonight&bg_color=1a1b27&text_color=c9cacc&title_color=00d9ff)
 
 ---
 
-## 🌐 **SECURE COMMUNICATION CHANNELS**
-
-```
-┌─ CONTACT PROTOCOLS ─────────────────────────────────────┐
-│                                                         │
-│  🔗 Dark Web Portal    │  https://darknexus.onion      │
-│  📧 Encrypted Email    │  kronos@protonmail.com        │
-│  💬 Signal             │  +1-555-SHADOW                │
-│  🔐 PGP Key ID         │  0x1337DEADBEEF               │
-│                                                         │
-│  ⚠️  All communications encrypted with AES-256         │
-│  ⚠️  No logs kept • Perfect forward secrecy            │
-└─────────────────────────────────────────────────────────┘
-```
-
-### 🔑 **PGP FINGERPRINT**
-```
-pub   4096R/1337BEEF 2025-01-01 [expires: 2027-01-01]
-      Key fingerprint = 1337 DEAD BEEF CAFE BABE 0xFF 5555 AAAA
-uid   Kronos (Shadow Nexus Labs) <kronos@darknexus.onion>
-sub   4096R/DEADCAFE 2025-01-01
-```
+## 🏆 Certifications & Recognition
+- **Google Cybersecurity Certificate**
+- **Cisco Cybersecurity Essentials**
+- **IBM Cybersecurity Tools & Attacks**
+- **Palo Alto Networks Cybersecurity Foundation**
+- **Published at CYBPRO 2025 International Conference** - Advanced Ransomware Detection Methodologies
 
 ---
 
-## ⚡ **CURRENT STATUS**
+## 🛠️ Expertise Areas
 
-<div align="center">
-
-```
-[████████████████████████████████] 100% OPERATIONAL
-
-🟢 ACTIVE    │ Currently engaged in Red Team operations
-🔍 RESEARCH  │ Zero-day vulnerability analysis in progress  
-⚔️ TRAINING  │ Advanced persistent threat simulation
-🛡️ DEFENSE   │ Blue team collaboration projects
-```
-
-**Last Seen:** *Ghost Mode - Location Unknown*
-
-**Operation Code:** `SHADOW_NEXUS_ALPHA`
-
-</div>
+| Domain | Skills |
+|--------|--------|
+| **Blue Team Operations** | Threat Hunting, Log Analysis, Anomaly Detection, Incident Response |
+| **Malware Analysis** | CAPEv2, Behavioral Analysis, YARA Rules, Ransomware Research |
+| **SIEM & Logging** | ELK Stack, Log Correlation, Alert Tuning, Dashboard Design |
+| **GRC & Compliance** | NIST CSF, OWASP Top 10, Zero Trust Architecture, Risk Assessment |
+| **Cloud Security** | AWS Security, IAM Management, Cloud Monitoring, Infrastructure Security |
 
 ---
 
-<div align="center">
+## 📫 Connect With Me
 
-### "*In the realm of cyber warfare, knowledge is the ultimate weapon.*"
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/saurav-singh-cybersecurity)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:sauravsingh8160@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Kronos-ux)
 
-```
-─────────────────────────────────────────────────────────────
-        ⚠️  FOR EDUCATIONAL AND AUTHORIZED TESTING ONLY  ⚠️
-    All activities conducted within legal and ethical boundaries
-─────────────────────────────────────────────────────────────
-```
+---
 
-![Profile Views](https://komarev.com/ghpv/?username=Kronos-ux&color=red&style=flat-square&label=PROFILE+SCANS)
+## 💼 Currently Seeking
 
-</div>
+🎯 **Open to**: Cybersecurity Analyst | SOC Analyst | Threat Intelligence | Blue Team Specialist
+🌐 **Location**: New Delhi, India
+📚 **Learning**: Advanced SOAR Implementation, AI/ML in Threat Detection, Kubernetes Security
+
+---
+
+## 📈 Recent Activity
+
+- 🔬 Completed research on advanced ransomware detection methodologies
+- 🏗️ Engineered scalable malware detonation pipeline (20,000+ samples)
+- 📊 Designed custom ELK Stack dashboards for enterprise threat monitoring
+- 🤖 Developed ML-based phishing detection model with 95%+ accuracy
+
+---
+
+*Last updated: December 2025*
