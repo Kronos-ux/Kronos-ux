@@ -84,7 +84,7 @@ Production-grade Web Application Firewall deployment with OWASP Top 10 protectio
 ## 💼 Currently Seeking
 
 🎯 **Open to**: Cybersecurity Analyst | SOC Analyst | Threat Intelligence | Blue Team Specialist
-🌐 **Location**: New Delhi, India
+🌐 **Location**: Chandigarh, India
 📚 **Learning**: Advanced SOAR Implementation, AI/ML in Threat Detection, Kubernetes Security
 
 ---
